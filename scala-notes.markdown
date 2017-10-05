@@ -3,6 +3,10 @@
 https://www.scala-exercises.org/scala_tutorial/
 
 ***
+#### Definition and Evaluation
+**`def` vs `val`**
+`def` can be an expression that will be *evaluated* when called
+`val` will evaluation a RHS expression and set that as the value of the variable
 
 #### Structuring Information
 
