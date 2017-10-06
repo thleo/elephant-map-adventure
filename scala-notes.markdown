@@ -20,10 +20,16 @@ https://www.scala-exercises.org/scala_tutorial/
   a sealed trait
   - "A computer *is* a Linux, Windows, or iOS machine."
   
-#### Standar Library
+#### Standard Library
 
 - This section of the tutorial uses a magical character known to man as the underscore (\_)
   - In the first exercise, `-` is used as a placeholder for parameters
 - There are multiple applications/uses for the magical underscore, but this is the relevant use not explained
   - *More here*: http://ananthakumaran.in/2010/03/29/scala-underscore-magic.html
   - And *here*: https://stackoverflow.com/questions/8000903/what-are-all-the-uses-of-an-underscore-in-scala
+  
+- Optional values
+  - Use `option` to specify either `None`  or `Some[x]` when asked for a value. 
+    - If there is a value given, use `Some[x]` to express what that value should be/how it should be operated on
+    - If no value is given, return `None`
+  - [Official Documentation: Optional Values](http://www.scala-lang.org/api/2.12.3/scala/Option.html)
